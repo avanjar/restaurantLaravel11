@@ -15,7 +15,7 @@
 
     @foreach ($produits as $produits)
     <h2>{{$produits->nomp}}</h2>
-      <p>{{$produits->prix}}</p>  
+      <p>{{$produits->prix}} €</p>  
       <p> {{ $produits->descriptionp}}</p> 
         
     @endforeach
