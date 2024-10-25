@@ -1,0 +1,46 @@
+body{
+    background-color: lightblue;
+}
+.cercle{height: 200px;
+width: 200px;
+background-color: red;
+border-radius: 100%;
+margin-bottom: 10px;}
+.mini{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    border-radius: 100%;
+}
+.tete{
+    background-color: rgb(248, 253, 253);
+    padding: 20px;
+  
+}
+.pied{
+    background-color: rgb(218, 43, 72);
+    width: 100%;
+    position: fixed;
+
+}
+
+.burger{
+    width: 100px;
+}
+
+.salad{
+    width: 150px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.contente{ 
+    
+    min-height: 300px;
+  
+}
+.gateau{
+    width: 80px;
+}
