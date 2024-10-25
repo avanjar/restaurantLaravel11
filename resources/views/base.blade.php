@@ -16,7 +16,7 @@
         </div>
             <nav>
                 <ul>
-                    <li><a href="./">Accueil</a></li>
+                    <li><a href="{{route('home')}}">Accueil</a></li>
                     <li><a href="{{route('plats')}}">Plats</a></li>
                     <li><a href="{{route('contact')}}">Contact</a></li>
                 </ul>

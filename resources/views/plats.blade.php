@@ -12,14 +12,13 @@
 <img src="" alt="soupe">
 <p>soupe</p>
 <p>prix:6£</p>
-<ul>
+
     @foreach ($produits as $produits)
-    <li>{{$produits->nomp}}
-        {{$produits->prix}}
-        {{ $produits->descriptionp}}
-     </li>
+    <h2>{{$produits->nomp}}</h2>
+      <p>{{$produits->prix}}</p>  
+      <p> {{ $produits->descriptionp}}</p> 
         
     @endforeach
-</ul>
+
    
 @endsection
